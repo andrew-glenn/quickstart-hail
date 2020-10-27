@@ -23,12 +23,12 @@
 (`pCreateHailBucket`)|`yes`|Select No to use an existing bucket.|Sagemaker Home Directory Bucket Name
 (`pSageMakerBucket`)|`**__Requires input__**`|Bucket for common Jupyter notebooks and SageMaker home directory backups.|Create SageMaker Bucket
 (`pCreateSageMakerBucket`)|`yes`|Select No to use an existing bucket.|EBS KMS Key ARN
-(`pKmsEbsArn`)|`**__Requires input__**`|Optional - if the source AMI is encrypted specify the full key ARN.  Otherwise, leave blank.  This does NOT automatically enable EBS encryption.
+(`pKmsEbsArn`)|`**__Blank string__**`|Optional - if the source AMI is encrypted specify the full key ARN.  Otherwise, leave blank.  This does NOT automatically enable EBS encryption.
 |===
 .Tagging
 [width="100%",cols="16%,11%,73%",options="header",]
 |===
 |Parameter label (name) |Default value|Description|Environment Tag
 (`pTagEnvironment`)|`development`|Environment type for default resource tagging.|Owner Tag
-(`pTagOwner`)|`**__Requires input__**`|Optional - Owner of the resources.  Person/Department, etc.
+(`pTagOwner`)|`**__Blank string__**`|Optional - Owner of the resources.  Person/Department, etc.
 |===
