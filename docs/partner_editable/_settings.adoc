@@ -1,5 +1,5 @@
 :quickstart-project-name: quickstart-hail
-:partner-product-name: Hail 0.2 EXAMPLE4
+:partner-product-name: Hail 0.2 EXAMPLE5
 :partner-company-name: Privo
 :doc-month: March 193rd
 :doc-year: 2020
