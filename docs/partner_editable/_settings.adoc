@@ -1,5 +1,5 @@
 :quickstart-project-name: quickstart-hail
-:partner-product-name: Hail 0.25.1
+:partner-product-name: Hail 0.25.84 (Doc Edits) - 2020-11-02/2131/Central
 :partner-company-name: Privo
 :doc-month: August
 :doc-year: 2020
