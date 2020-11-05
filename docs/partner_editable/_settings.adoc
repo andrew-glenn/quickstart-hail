@@ -1,7 +1,7 @@
 :quickstart-project-name: quickstart-hail
-:partner-product-name: Hail 0.2 EXAMPLE
+:partner-product-name: Hail 0.2 EXAMPLE-6
 :partner-company-name: Privo
-:doc-month: March 182nd
+:doc-month: March 193rd
 :doc-year: 2020
 :partner-contributors: Adam Perry, Privo and Adam Tebbe, Goldfinch Pharmaceuticals
 :quickstart-contributors: Paul Underwood, AWS and Roy Hasson, AWS
