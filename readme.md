@@ -1,4 +1,4 @@
-# Hail on EMR sfdasf
+# Hail on EMR sfdasfasf
 adsfg
 This solution was sdfgdesigned to provide a reproducible, easy to deploy environment to integrate [Hail](https://hail.is) with [AWS EMR](https://aws.amazon.com/emr/faqs/?nc=sn&loc=7).  Where possible, AWS native tools have been used.
 
