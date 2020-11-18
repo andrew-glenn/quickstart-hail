@@ -108,6 +108,22 @@ Conditions:
   CondPrivateSubnet: !Equals [ !Ref pSubnetType, "private" ]
 
 Resources:
+  sg:
+    Type: "AWS::EC2::SecurityGroup"
+    Properties:
+      VpcId: !Ref pVpcId
+      GroupDescription: "Security group allowing Hail AMI builds egress."
+      SecurityGroupEgress:
+        - IpProtocol: "-1"
+          FromPort: -1
+          ToPort: -1
+          CidrIp: "0.0.0.0/0"
+          Description: "all"
+      Tags:
+        - Key: "environment"
+          Value: !Ref pTagEnvironment
+        - Key: "owner"
+          Value: !Ref pTagOwner
 
   sg:
     Type: "AWS::EC2::SecurityGroup"
