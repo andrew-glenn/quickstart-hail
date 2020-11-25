@@ -1,4 +1,5 @@
 project:
+  s3_regional_buckets: true
   name: quickstart-hail
   regions:
     - us-east-2
